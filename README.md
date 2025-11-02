@@ -1,5 +1,6 @@
 # 📔 Personal Semantic Diary
 
+<div align="center">
 
 **An intelligent personal diary application with semantic understanding and graph-based memory storage**
 
@@ -9,7 +10,7 @@
 [![Neo4j](https://img.shields.io/badge/Neo4j-5.x-orange.svg)](https://neo4j.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-
+</div>
 
 ## 🌟 Overview
 
@@ -28,6 +29,7 @@ Personal Semantic Diary is an AI-powered diary application that stores text, spe
 ## 🎬 Demo
 
 Create entries with text, images, or audio. The system automatically:
+
 - Extracts concepts, keywords, and entities
 - Creates graph relationships
 - Links related entries
@@ -102,17 +104,20 @@ cd ..
 ### 6. Run the Application
 
 **Backend**:
+
 ```bash
 python main.py
 ```
 
 **Frontend** (in a new terminal):
+
 ```bash
 cd frontend
 npm run dev
 ```
 
 **Or use the convenience scripts**:
+
 - Windows: `run.bat`
 - Mac/Linux: `./run.sh`
 
@@ -130,6 +135,7 @@ Navigate to **http://localhost:5173**
 4. Click **"Save Entry"**
 
 The system automatically:
+
 - Extracts keywords, concepts, and entities
 - Creates graph nodes and relationships
 - Links to related entries
@@ -137,6 +143,7 @@ The system automatically:
 ### Searching Memories
 
 Use natural language queries:
+
 - "Tell me about happy moments"
 - "What did I do last week?"
 - "Show me memories about work"
@@ -157,13 +164,16 @@ LIMIT 100
 
 The application creates a rich graph structure:
 
+**Node Types:**
+
 - **Entry** nodes - Your diary entries
 - **Concept** nodes - Semantic concepts (emotions, activities, topics)
 - **Entity** nodes - Named entities (people, places)
 - **Keyword** nodes - Important keywords
 - **Tag** nodes - User-defined tags
 
-**Relationships**:
+**Relationships:**
+
 - `MENTIONS_CONCEPT` - Entry → Concept
 - `MENTIONS_ENTITY` - Entry → Entity
 - `HAS_KEYWORD` - Entry → Keyword
@@ -237,16 +247,19 @@ MAX_FILE_SIZE_MB=50
 ### Common Issues
 
 **Neo4j Connection Failed**
+
 - Ensure Neo4j Desktop is running
 - Check credentials in `.env`
 - Verify firewall settings
 
 **Model Loading Issues**
+
 - First run downloads models (~420MB)
 - Check internet connection
 - See [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
 
 **PowerShell Execution Policy**
+
 - Use Command Prompt or run: `Set-ExecutionPolicy RemoteSigned`
 
 See [TROUBLESHOOTING.md](TROUBLESHOOTING.md) for detailed solutions.
@@ -270,6 +283,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## 📞 Support
 
 For issues and questions:
+
 - Check [TROUBLESHOOTING.md](TROUBLESHOOTING.md)
 - Review [ARCHITECTURE.md](ARCHITECTURE.md) for system details
 - Open an issue on GitHub
@@ -277,17 +291,20 @@ For issues and questions:
 ## 🌟 Features in Detail
 
 ### Semantic Graph
+
 - Automatic concept extraction
 - Entity recognition
 - Keyword identification
 - Relationship inference
 
 ### Multi-Modal Support
+
 - Text entries
 - Audio transcription (Whisper)
 - Image OCR (Tesseract)
 
 ### Intelligent Search
+
 - Natural language queries
 - Semantic similarity matching
 - Context-aware results
@@ -295,12 +312,10 @@ For issues and questions:
 
 ---
 
-
+<div align="center">
 
 **Built with ❤️ using AI and Graph Technology**
 
 ⭐ Star this repo if you find it useful!
 
-#   P e r s o n a l _ m e m o r y _ m a n a g e r 
- 
- 
+</div>
