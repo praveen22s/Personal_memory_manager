@@ -1,8 +1,7 @@
 # 📔 Personal Semantic Diary
 
-<div align="center">
 
-  **An intelligent personal diary application with semantic understanding and graph-based memory storage**
+**An intelligent personal diary application with semantic understanding and graph-based memory storage**
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104-green.svg)](https://fastapi.tiangolo.com/)
@@ -10,7 +9,7 @@
 [![Neo4j](https://img.shields.io/badge/Neo4j-5.x-orange.svg)](https://neo4j.com/)
 [![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-</div>
+
 
 ## 🌟 Overview
 
@@ -296,12 +295,12 @@ For issues and questions:
 
 ---
 
-<div align="center">
+
 
 **Built with ❤️ using AI and Graph Technology**
 
 ⭐ Star this repo if you find it useful!
 
-</div>#   P e r s o n a l _ m e m o r y _ m a n a g e r 
+#   P e r s o n a l _ m e m o r y _ m a n a g e r 
  
  
