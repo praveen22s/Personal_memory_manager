@@ -1,0 +1,32 @@
+# Core Framework
+fastapi==0.104.1
+uvicorn==0.24.0
+pydantic==2.5.0
+python-multipart==0.0.6
+
+# Database
+neo4j==5.14.1
+
+# AI/ML Libraries
+sentence-transformers==2.2.2
+torch==2.1.0
+# openai-whisper==20231117  # Optional: Not compatible with Python 3.14+, install separately if needed
+
+# Image Processing
+Pillow==10.1.0
+pytesseract==0.3.10
+
+# Utilities
+numpy==1.24.3
+python-dateutil==2.8.2
+watchfiles==0.21.0
+aiofiles==23.2.1
+python-dotenv==1.0.0
+
+# Optional Dependencies
+# For better speech recognition (if using Python < 3.14):
+# openai-whisper==20231117
+
+# For enhanced NLP (optional):
+# spacy>=3.7.0
+# https://spacy.io/usage
