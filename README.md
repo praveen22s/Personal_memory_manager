@@ -2,7 +2,7 @@
 
 <div align="center">
 
-**An intelligent personal diary application with semantic understanding and graph-based memory storage**
+  **An intelligent personal diary application with semantic understanding and graph-based memory storage**
 
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![FastAPI](https://img.shields.io/badge/FastAPI-0.104-green.svg)](https://fastapi.tiangolo.com/)
@@ -302,5 +302,6 @@ For issues and questions:
 
 ⭐ Star this repo if you find it useful!
 
-</div>#   P e r s o n a l _ m e m o r y _ m a n a g e r  
+</div>#   P e r s o n a l _ m e m o r y _ m a n a g e r 
+ 
  
